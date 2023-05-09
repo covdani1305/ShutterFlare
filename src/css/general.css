@@ -1,0 +1,75 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --primary-bg-color: #ebebeb;
+  --secondary-bg-color: #333533;
+  --tertiary-bg-color: #d6d7d6;
+  --primary-text-color: #242423;
+  --secondary-text-color: #d6d7d6;
+  --tertiary-text-color: #636363;
+  --accent-color: #f5cb5c;
+  --shadow-color: #c2c2c2;
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  padding: 0;
+  /* outline: 1px solid limegreen !important; */
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* DOES NOT WORK ON ALL BROWSERS */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  position: relative;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+h1 {
+  font-size: 4rem;
+}
+
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ margin: 9.6rem auto;
+  max-width: 120rem;
+  padding: 0 4.8rem;
+}
+.section-title {
+  margin-bottom: 4.8rem;
+}
+.secondary-heading {
+  font-size: 2.4rem;
+  color: var(--tertiary-text-color);
+}
+
+a {
+  text-decoration: none;
+}

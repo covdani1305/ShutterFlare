@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./src/css/general.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="./src/js/script.js"></script>
+    <link
+      rel="shortcut icon"
+      href="./img-logo-icons/logo-no-background.png"
+      type="image/x-icon"
+    />
+    <title>ShutterFlare</title>
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+    <header class="header">
+      <a href="#">
+        <img class="main-logo" src="./src/img/logo/main_logo.svg" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#about-us">About Us</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li>
+            <a class="main-nav-link to-cta" href="#CTA">Free Consultation</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">ShutterFlare</h1>
+            <p class="hero-description">
+              where we believe that every moment is worth capturing
+            </p>
+          </div>
+          <div class="img-box">
+            <img
+              class="hero-img"
+              src="./src/img/ShutterFlare-imgs/foto-1.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT US -->
+      <section class="about-us" id="about-us">
+        <div class="section-title">
+          <h2 class="secondary-heading">About Us</h2>
+        </div>
+        <div class="about-us-grid">
+          <img
+            class="about-us-staff-pic"
+            src="./src/img/ShutterFlare-imgs/foto-2.jpg"
+            alt="ShutterFlare videographer."
+          />
+          <p class="about-us-text">
+            Welcome to ShutterFlare, where we believe that every moment is worth
+            capturing. We are a premier photography and videography company that
+            specializes in providing exceptional services for events of all
+            kinds. From weddings to corporate events, our team of skilled
+            photographers and videographers are committed to capturing the
+            essence of your special moments and turning them into timeless
+            memories.
+          </p>
+          <img
+            class="about-us-staff-pic"
+            src="./src/img/ShutterFlare-imgs/foto-3.jpg"
+            alt="ShutterFlare videographer."
+          />
+          <p class="about-us-text">
+            Whether you're looking for a wedding photographer, corporate
+            videographer, or event coverage, ShutterFlare is the company for
+            you. Contact us today to learn more about our services and to
+            schedule your consultation. Let us capture your special moments and
+            turn them into memories that will last a lifetime.
+          </p>
+        </div>
+      </section>
+      <!-- GALLERY -->
+      <section class="gallery container" id="gallery">
+        <div class="section-title">
+          <h2 class="secondary-heading">Gallery</h2>
+        </div>
+        <div class="slider">
+          <button class="btn slider-btn btn-prev">
+            <ion-icon
+              class="slider-btn-icon"
+              name="chevron-back-outline"
+            ></ion-icon>
+          </button>
+
+          <button class="btn slider-btn btn-next">
+            <ion-icon
+              class="slider-btn-icon"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </button>
+          <img
+            class="slide slide-active"
+            src="./src/img/ShutterFlare-imgs/gallery-1.jpg"
+            alt="Gallery image"
+          />
+
+          <img
+            class="slide"
+            src="./src/img/ShutterFlare-imgs/gallery-2.jpg"
+            alt="Gallery image"
+          />
+
+          <img
+            class="slide"
+            src="./src/img/ShutterFlare-imgs/gallery-3.jpg"
+            alt="Gallery image"
+          />
+          <img
+            class="slide"
+            src="./src/img/ShutterFlare-imgs/gallery-4.jpg"
+            alt="Gallery image"
+          />
+          <img
+            class="slide"
+            src="./src/img/ShutterFlare-imgs/gallery-5.jpg"
+            alt="Gallery image"
+          />
+        </div>
+      </section>
+      <!-- PRICING -->
+      <section class="pricing container" id="pricing">
+        <div class="section-title pricing-title">
+          <h2 class="secondary-heading">Pricing</h2>
+        </div>
+        <div class="pricing-options">
+          <a href="#CTA">
+            <div class="pricing-card">
+              <p class="pricing-card-title">Standard</p>
+              <ul class="pricing-card-list">
+                <li>400 photos</li>
+                <li>90 min wedding film</li>
+                <li>5 min short film</li>
+              </ul>
+              <div class="price-box">
+                <p class="price-tag">1200$</p>
+              </div>
+            </div>
+          </a>
+          <a href="#CTA">
+            <div class="pricing-card pricing-card-recommended">
+              <div class="recommended-price">
+                <p>Recommended</p>
+              </div>
+              <p class="pricing-card-title">Gold</p>
+              <ul class="pricing-card-list">
+                <li>600 photos</li>
+                <li>2 hour wedding film</li>
+                <li>5 min short film</li>
+                <li>Drone shots</li>
+              </ul>
+              <div class="price-box">
+                <p class="price-tag">1700$</p>
+              </div>
+            </div>
+          </a>
+          <a href="#CTA">
+            <div class="pricing-card">
+              <p class="pricing-card-title">Premium</p>
+              <ul class="pricing-card-list">
+                <li>800 photos</li>
+                <li>2 hour wedding film</li>
+                <li>5 min short film</li>
+                <li>Drone shots</li>
+                <li>1 additional photo session</li>
+              </ul>
+              <div class="price-box">
+                <p class="price-tag">2200$</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!-- CTA -->
+      <section class="CTA" id="CTA">
+
+        <div class="call-to-action">
+
+          <div class="CTA-title">
+            <h2>Get a free consultation</h2>
+          </div>
+          <form class="CTA-form" name="sign-up" data-netlify="true">
+            <input class="cta-item name" type="text" placeholder="Full Name" />
+            <input
+              class="cta-item cta-email"
+              type="email"
+              placeholder="Email"
+            />
+            <input class="cta-item phone" type="text" placeholder="Phone Nr." />
+            <button class="CTA-btn" type="submit">Submit</button>
+          </form>
+          <div class="footer-staff-pic"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <img
+          class="secondary-logo"
+          src="./src/img/logo/secondary_logo.svg"
+          alt="ShutterFlare logo"
+        />
+        <div class="social-media-icon-box">
+          <a href="#">
+            <img
+              class="social-icon"
+              src="./src/img/social media svgs/email_icon.svg"
+              alt="email icon"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="social-icon"
+              src="./src/img/social media svgs/instagram_icon.svg"
+              alt="IG icon"
+            />
+          </a>
+          <a href="#">
+            <img
+              class="social-icon"
+              src="./src/img/social media svgs/facebook_icon.svg"
+              alt="FB icon"
+            />
+          </a>
+        </div>
+        <p class="address">
+          623 Harrison St., 2nd Floor, San Francisco, CA 94107
+        </p>
+        <p class="email">shutterflare@hello.com</p>
+
+        <p class="copyright">
+          Copyright ©2023 by ShutterFlare, Inc. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
