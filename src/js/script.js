@@ -155,6 +155,9 @@ const submitForm = function () {
     e.preventDefault();
 
     if (fullName.value && email.value && phone.value) {
+      console.log(fullName.value);
+      
+
       renderSuccessMsg();
       clearInputs();
     } else {
